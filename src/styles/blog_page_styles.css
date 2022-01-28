@@ -36,12 +36,12 @@
 .left_side {
     width: 1400px;
     height: fit-content;
-    height: 200px;
 }
 
 .right_side {
     padding: 30px;
     flex-grow: 1;
+    
     background-color: #f3f3f3;
 }
 

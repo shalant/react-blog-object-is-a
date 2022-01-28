@@ -15,19 +15,23 @@ function Post() {
             </div>
 
             <div className='section section2'>
-
+                Lorem10
+                {/* WriteUp */}
             </div>
 
             <div className='section section3'>
-
+                lorem30
+                {/* Gallery */}
             </div>
 
             <div className='section section4'>
-
+                Lorem10
+                {/* WriteUp */}
             </div>
 
             <div className='section section5'>
-
+                Lorem10
+                {/* PrimaryAsset */}
             </div>
 
         </div>
