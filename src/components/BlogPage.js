@@ -16,7 +16,7 @@ function BlogPage() {
             <div className='container'>
                 <div className='left_side'>
                     <div className='blog_posts'>
-                        {/* <Post /> */}
+                        <Post />
                     </div>
                 </div>
                 <div className='right_side'>
