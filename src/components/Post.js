@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../styles/post_styles.css';
+import WriteUp from './WriteUp';
 
 function Post() {
     return (
@@ -15,8 +16,7 @@ function Post() {
             </div>
 
             <div className='section section2'>
-                Lorem10
-                {/* WriteUp */}
+                <WriteUp />
             </div>
 
             <div className='section section3'>
@@ -25,8 +25,7 @@ function Post() {
             </div>
 
             <div className='section section4'>
-                Lorem10
-                {/* WriteUp */}
+                <WriteUp />
             </div>
 
             <div className='section section5'>
