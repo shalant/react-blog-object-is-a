@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 import '../styles/write_up_styles.css';
 
 function WriteUp() {
+    const CopyWriteRef = useRef();
+    const text_threshold = 500;
+
+    useEffect(() => {
+        const copywrite = CopyWriteRef.current;
+
+        // if (copywrite.getBoundingClientRed().height > text_threshold) {
+        //     copywrite.style.height = `${text_threshold}px`;
+        // }
+    })
+
   return (
     <div className='write_up'>
         <div className='copyright'>

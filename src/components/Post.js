@@ -20,11 +20,12 @@ function Post() {
             </div>
 
             <div className='section section3'>
-                lorem30
+                lorem30 lorem30 lorem30 lorem30 lorem30 lorem30
                 {/* Gallery */}
             </div>
 
             <div className='section section4'>
+            lorem30 lorem30 lorem30 lorem30 lorem30
                 <WriteUp />
             </div>
 
