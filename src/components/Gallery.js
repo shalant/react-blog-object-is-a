@@ -1,26 +1,21 @@
 import React from 'react';
 
 import '../styles/gallery_styles.css';
-import sunset from '../images/sunset.jpg';
-import legos from '../images/legos.jpg';
-import salad from '../images/salad.jpg';
-import silly from '../images/silly.jpg';
-
 
 function Gallery() {
   return (
     <div className='post_image_gallery'>
         <div className='gallery_image'>
-            <img src={sunset} alt='' />
+            <img src='https://picsum.photos/200/301' alt='' />
         </div>
         <div className='gallery_image'>
-            <img src={legos} alt='' />
+            <img src='https://picsum.photos/200/302' alt='' />
         </div>
         <div className='gallery_image'>
-            <img src={silly} alt='' />
+            <img src='https://picsum.photos/200/303' alt='' />
         </div>
         <div className='gallery_image'>
-            <img src={salad} alt='' />
+            <img src='https://picsum.photos/200/304' alt='' />
         </div>
     </div>
   )

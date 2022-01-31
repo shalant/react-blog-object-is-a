@@ -7,6 +7,20 @@
     height: 400px;
 
     background-color: #111111;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.site_header img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 10%;
+    left: 3%;
+
+    box-shadow: 0 0 10px red;
 }
 
 .page_name {

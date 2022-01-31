@@ -2,12 +2,13 @@ import React from 'react';
 
 import '../styles/blog_page_styles.css'
 import Post from './Post';
+import Separator from './Separator.js';
 
 function BlogPage() {
     return (
         <div className='blog_page'>
-            <div className='site_header'>
-
+            <div className='site_header' style={{ backgroundImage: "url('/images/drd7.png')" }}>
+                <img src='/images/drd7.png' alt='' />
             </div>
             <div className='page_name'>
                 Developer Blog
@@ -16,6 +17,8 @@ function BlogPage() {
             <div className='container'>
                 <div className='left_side'>
                     <div className='blog_posts'>
+                        <Post />
+                        <Separator />
                         <Post />
                     </div>
                 </div>

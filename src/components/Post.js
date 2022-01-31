@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../styles/post_styles.css';
 import Gallery from './Gallery.js';
+import PrimaryAsset from './PrimaryAsset.js';
 import WriteUp from './WriteUp.js';
 
 function Post() {
@@ -29,8 +30,7 @@ function Post() {
             </div>
 
             <div className='section section5'>
-                Lorem10 Lorem10 Lorem10 Lorem10 Lorem10 Lorem10
-                {/* PrimaryAsset */}
+                <PrimaryAsset />
             </div>
 
         </div>
