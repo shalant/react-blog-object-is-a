@@ -1,7 +1,8 @@
 import React from 'react';
 
 import '../styles/post_styles.css';
-import WriteUp from './WriteUp';
+import Gallery from './Gallery.js';
+import WriteUp from './WriteUp.js';
 
 function Post() {
     return (
@@ -20,17 +21,15 @@ function Post() {
             </div>
 
             <div className='section section3'>
-                lorem30 lorem30 lorem30 lorem30 lorem30 lorem30
-                {/* Gallery */}
+                <Gallery />
             </div>
 
             <div className='section section4'>
-            lorem30 lorem30 lorem30 lorem30 lorem30
                 <WriteUp />
             </div>
 
             <div className='section section5'>
-                Lorem10
+                Lorem10 Lorem10 Lorem10 Lorem10 Lorem10 Lorem10
                 {/* PrimaryAsset */}
             </div>
 
