@@ -5,12 +5,12 @@ import Gallery from './Gallery.js';
 import PrimaryAsset from './PrimaryAsset.js';
 import WriteUp from './WriteUp.js';
 
-function Post() {
+function Post(props) {
     return (
         <div className='blog_post'>
             <div className='section section1'>
                 <div className='post_title'>
-                    <span>Title</span>
+                    <span>{props.post.title}</span>
                 </div>
                 <div className='post_subtitle'>
                     <span>Subtitle</span>
