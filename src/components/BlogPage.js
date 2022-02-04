@@ -6,6 +6,7 @@ import { blog_posts } from '../copywrite/blog_posts.js';
 
 import Post from './Post';
 import Separator from './Separator.js';
+import drd7 from '../images/drd7.png';
 
 function BlogPage() {
     function render_posts() {
@@ -18,14 +19,23 @@ function BlogPage() {
             )
         });
     }
-    function render_index() {
 
+    function render_index() {
+        return blog_posts.map((post, i) => {
+            return (
+                <li key={i}>
+                    <a href={`#${encodeURIComponent(post.title.toLowerCase())}`}>{post.title}</a>
+                </li>
+            )
+        });
     }
 
     return (
         <div className='blog_page'>
-            <div className='site_header' style={{ backgroundImage: "url('/images/drd7.png')" }}>
-                <img src='/images/drd7.png' alt='' />
+            <div className='site_header' 
+                // style={{ backgroundImage: "url('/images/drd7.png')" }}
+            >
+                <img src={drd7} alt='' />
             </div>
             <div className='page_name'>
                 Developer Blog
@@ -34,21 +44,13 @@ function BlogPage() {
             <div className='container'>
                 <div className='left_side'>
                     <div className='blog_posts'>
-                        {render_posts}
+                        {render_posts()}
                     </div>
                 </div>
                 <div className='right_side'>
                     <div className='blog_index'>
                         <ul>
-                            <li>
-                                <a href='https://localhost'>Lorem, ipsum.</a>
-                            </li>
-                            <li>
-                                <a href='https://localhost'>Lorem, ipsum.</a>
-                            </li>
-                            <li>
-                                <a href='https://localhost'>Lorem, ipsum.</a>
-                            </li>
+                            {render_index()}
                         </ul>
                     </div>
                 </div>

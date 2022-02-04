@@ -2,10 +2,10 @@ export const blog_posts = [{
     title: 'React WebSites',
     subtitle: 'Beginner React Websites for Jr. Devs',
     images: [
-        './images/legos.jpg',
-        './images/salad.jpg',
-        './images/silly.jpg',
-        './images/sunset.jpg'
+        '/images/legos.jpg',
+        '/images/salad.jpg',
+        '/images/silly.jpg',
+        '/images/sunset.jpg'
     ],
     primary_asset: `iframe src='https://www.youtube.com/embed/cACA4s5GuUb8' title:'YouTube Video Player' frameborder='0 `,
     copywrite: [
@@ -71,10 +71,10 @@ export const blog_posts = [{
         title: 'Chrome Extension Development',
         subtitle: 'The Basics of Chrome Dev. A-Z',
         images: [
-            './images/max.jpg',
-            './images/oz.jpg',
-            './images/po.jpg',
-            './images/warm-bg.jpg',
+            '/images/max.jpg',
+            '/images/oz.jpg',
+            '/images/po.jpg',
+            '/images/warm-bg.jpg',
         ],
         primary_asset: `<iframe src='https://www.youtube.com/embed/-dhMbVEreII' title="YouTube video player' frameborder=0'`,
         copywrite: [

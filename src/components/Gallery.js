@@ -2,23 +2,23 @@ import React from 'react';
 
 import '../styles/gallery_styles.css';
 
-function Gallery() {
-  return (
-    <div className='post_image_gallery'>
-        <div className='gallery_image'>
-            <img src='https://picsum.photos/200/301' alt='' />
+function Gallery(props) {
+    function render_images() {
+        return props.images.map((image_path, i) => {
+            return (
+                <div className='gallery_image' key={i} >
+                    <img src={image_path} alt='' />
+                </div>
+            )
+            
+        });
+    }
+
+    return (
+        <div className='post_image_gallery'>
+            {render_images()}
         </div>
-        <div className='gallery_image'>
-            <img src='https://picsum.photos/200/302' alt='' />
-        </div>
-        <div className='gallery_image'>
-            <img src='https://picsum.photos/200/303' alt='' />
-        </div>
-        <div className='gallery_image'>
-            <img src='https://picsum.photos/200/304' alt='' />
-        </div>
-    </div>
-  )
+    )
 };
 
 export default Gallery;

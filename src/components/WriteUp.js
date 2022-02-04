@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 
 import '../styles/write_up_styles.css';
 
-function WriteUp() {
+function WriteUp(props) {
     const CopyWriteRef = useRef();
     const text_threshold = 500;
 
@@ -24,8 +24,8 @@ function WriteUp() {
 
   return (
     <div className='write_up'>
-        <div ref={CopyWriteRef} className='copywright'>
-            lorem30 lorem30 lorem30 lorem30 lorem 30 lorem 30 lorem30 lorem 30 lorem 30 lorem30 lorem 30 lorem 30 lorem30 lorem 30 lorem 30 lorem30
+        <div ref={CopyWriteRef} className='copywright' dangerouslySetInnerHTML={{__html: props.copywrite}} >
+
         </div>
         <div className='blur'></div>
         <div onClick={handle_read_more} className='read_more'>Read more...</div>
