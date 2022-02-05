@@ -32,9 +32,8 @@ function BlogPage() {
 
     return (
         <div className='blog_page'>
-            <div className='site_header' 
-                // style={{ backgroundImage: "url('/images/drd7.png')" }}
-            >
+            <div className='site_header' >
+                {/* style={{ backgroundImage: "url('/images/drd7.png')" }} */}
                 <img src={drd7} alt='' />
             </div>
             <div className='page_name'>

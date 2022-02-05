@@ -22,7 +22,7 @@ function Post(props) {
             </div>
 
             <div className='section section3'>
-                <Gallery image={props.post.images} />
+                <Gallery images={props.post.images} />
             </div>
 
             <div className='section section4'>

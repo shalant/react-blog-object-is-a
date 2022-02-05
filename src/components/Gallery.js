@@ -10,7 +10,6 @@ function Gallery(props) {
                     <img src={image_path} alt='' />
                 </div>
             )
-            
         });
     }
 

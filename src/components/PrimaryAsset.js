@@ -2,10 +2,9 @@ import React from 'react';
 
 import '../styles/primary_asset_styles.css';
 
-function PrimaryAsset() {
+function PrimaryAsset(props) {
   return (
-    <div className='primary_asset'>
-        <img src='https://picsum.photos/200/300' alt='' />
+    <div className='primary_asset' dangerouslySetInnerHTML={{__html: props.primary_asset}} >
     </div>
   )
 }
