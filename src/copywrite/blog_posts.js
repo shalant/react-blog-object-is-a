@@ -7,7 +7,7 @@ export const blog_posts = [{
         '/images/silly.jpg',
         '/images/sunset.jpg'
     ],
-    primary_asset: `iframe src='https://www.youtube.com/embed/cACA4s5GuUb8' title:'YouTube Video Player' frameborder='0 `,
+    primary_asset: `<iframe src='https://www.youtube.com/embed/cACA4s5GuUb8' title:'YouTube Video Player' frameborder='0' allow='accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen ></iframe>`,
     copywrite: [
         `<p>
             <strong>
@@ -76,7 +76,7 @@ export const blog_posts = [{
             '/images/po.jpg',
             '/images/warm-bg.jpg',
         ],
-        primary_asset: `<iframe src='https://www.youtube.com/embed/-dhMbVEreII' title="YouTube video player' frameborder=0'`,
+        primary_asset: `<iframe src='https://www.youtube.com/embed/-dhMbVEreII' title="YouTube video player' frameborder='0' allow='accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen ></iframe>`,
         copywrite: [
             `<p>
                 <h1>

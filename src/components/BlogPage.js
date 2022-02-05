@@ -37,7 +37,7 @@ function BlogPage() {
                 <img src={drd7} alt='' />
             </div>
             <div className='page_name'>
-                Developer Blog
+                Web Developer Blog
             </div>
 
             <div className='container'>
@@ -49,6 +49,9 @@ function BlogPage() {
                 <div className='right_side'>
                     <div className='blog_index'>
                         <ul>
+                            <li>
+                                <a href={'#'}>Home</a>
+                            </li>
                             {render_index()}
                         </ul>
                     </div>
